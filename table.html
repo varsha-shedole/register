@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{border-collapse: collapse;border-color: brown;background-color: aqua;}
+    </style>
+</head>
+<body>
+    <table border="1" align="center" width="50%" cellspacing="10" cellpadding="10">
+        <caption>Employee details</caption>
+        <thead>
+            <tr>
+                <th>personname</th>
+                <th>PAddress</th>
+                <th>TAddress</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" align="center">A</td>
+                <td>HYD</td>
+                <td>SEC</td>
+            </tr>
+            <tr>
+                <!--td--><!--/td-->
+                <td colspan="2" align="center">SEC</td>
+                <!--td--><!--/td-->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
